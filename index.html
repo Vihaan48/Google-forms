@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Google form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page">
+            <header>
+                <img id="header" src="10.05.2021_13.01.15_REC.png">
+            </header>
+            <br>
+            <div class="Details">
+                <div class="line"></div>
+                <h1>Shri Ram Centennial School English<br>
+                    Language-1 class-6 UT-1
+                </h1>
+                <br>
+                <div class="d"><p>Marks- 40 Maximum</p>
+                <time>10:00pm to 11:00pm</time>
+                <p id="spec">Required *</p>    
+            </div>
+        </div>
+            <div class="Ques">
+                <br>
+                <p id="ques"><b>Name of the student <span id="req">*</span></b></p>
+                <input type="text" required value="Your answer" class="inputs">
+            </div>
+            <div class="Ques">
+                <br>
+                <p id="ques"><b>2x2</b></p>
+                <input type="text" value="Your answer" class="inputs">
+            </div>
+            <div class="mcq">
+                <br>
+                <p id="ques"><b>5x5</b></p>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt1,1">
+                    <label for="opt1,1">25</label><br>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt2,1">
+                    <label for="opt2,1">30</label><br>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt3,1">
+                    <label for="opt3,1">35</label>
+            </div>
+            <div class="mcq">
+                <br>
+                <p id="ques"><b>10x2</b></p>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt1,2">
+                    <label for="opt1,2">30</label><br>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt2,2">
+                    <label for="opt2,2">20</label><br>
+                <input type="checkbox" value="Your answer" class="inputs" id="opt3,2">
+                    <label for="opt3,2">10</label>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </body>
+</html>
